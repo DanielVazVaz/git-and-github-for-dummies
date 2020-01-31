@@ -1,6 +1,6 @@
-# Taller de introducción a `git` y GitLab
+# Taller de introducción a `git` y GitHub
 
-En este taller de introducción a `git` y [GitLab][1] aprenderemos los comandos básicos para empezar a trabajar con repositorios de forma local y remota.
+En este taller de introducción a `git` y [GitHub][1] aprenderemos los comandos básicos para empezar a trabajar con repositorios de forma local y remota.
 
 1. [`git`](#git)  
   1.1 [Instalación y configuración de `git`](#instalación-y-configuración-de-git)  
@@ -13,7 +13,7 @@ En este taller de introducción a `git` y [GitLab][1] aprenderemos los comandos 
   1.8 [Branches](#branches)  
   1.9 [El archivo `.gitignore`](#el-archivo-gitignore)  
   1.10 [Consultar el historial de *commits*](#consultar-el-historial-de-commits)  
-2. [GitLab](#gitlab)  
+2. [GitHub](#github)  
   2.1 [Workflow: cómo trabajar en equipo con `git`](#workflow-como-trabajar-en-equipo-con-git)  
   2.2 [Ejemplo](#ejemplo)
 
@@ -564,7 +564,7 @@ La opción `--graph` muestra el historial de *branches* y *merges* con un sencil
 git log --graph
 ```
 
-# GitLab
+# GitHub
 
 ## Workflow: cómo trabajar en equipo con `git`
 
@@ -590,7 +590,7 @@ ii) Mostramos el historial del proyecto
 git log
 ```
 
-iii) Creamos una rama en GitLab con nombre feature/new-file-user-xxx (siendo xxx las iniciales del usuario)
+iii) Creamos una rama en GitHub con nombre feature/new-file-user-xxx (siendo xxx las iniciales del usuario)
 
 iv) Nos traemos la rama creada
 ```
@@ -624,14 +624,14 @@ git commit -m 'New file'
 git status
 ```
 
-ix) Subimos la rama al repositorio remoto de GitLab
+ix) Subimos la rama al repositorio remoto de GitHub
 ```
 git push origin feature/new-file-user-xxx
 ```
 
-x) Creamos en GitLab un *merge request*
+x) Creamos en GitHub un *merge request*
 
-xi) Iniciamos el proceso de revisión de código en la plataforma de GitLab
+xi) Iniciamos el proceso de revisión de código en la plataforma de GitHub
 
 xii) Cambiamos a la rama principal
 ```
@@ -680,7 +680,7 @@ Este material ha sido modificado por [Rubén Crespo-Cano](https://about.me/ruben
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
 
-[1]: https://gitlab.com
+[1]: https://github.com
 [2]: https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F
 [3]: https://git-scm.com/book/es/v2
 [4]: https://git-scm.com/book/es/v2/GitHub-Creaci%C3%B3n-y-configuraci%C3%B3n-de-la-cuenta
