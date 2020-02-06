@@ -427,10 +427,10 @@ git clone <url_del_repositorio_remoto>
 **Ejemplo:**
 
 ```
-git clone https://github.com/rcrespocano/taller-git-gitlab.git
+git clone https://github.com/rcrespocano/eps-mes-cultural-2020
 ```
 
-Al clonar este repositorio se nos creará un directorio en nuestra máquina con el nombre `taller-git-gitlab` con el contenido del repositorio remoto.
+Al clonar este repositorio se nos creará un directorio en nuestra máquina con el nombre `eps-mes-cultural-2020` con el contenido del repositorio remoto.
 
 Esta es la opción que yo personalmente suelo utilizar a la hora de trabajar con repositorios remotos. En primer lugar creo el repositorio remoto en `GitHub` o `GitLab` y luego hago un `git clone` para clonarlo en mi máquina local.
 
@@ -445,7 +445,7 @@ git remote add <alias> <url_del_repositorio_remoto>
 Suponemos que ya tenemos creado un repositorio local y queremos añadir el repositorio remoto del taller de git. En este caso hemos usado `taller-git` como alias. Este sería el comando que tendríamos que ejecutar:
 
 ```
-git remote add taller-git https://github.com/josejuansanchez/taller-git-github.git
+git remote add taller-git https://github.com/rcrespocano/eps-mes-cultural-2020
 ```
 
 Para comprobar si el repositorio remoto se ha añadido correctamente ejecutamos:
